@@ -59,7 +59,6 @@ bindsym $mod+F2 exec firefox
 bindsym $mod+F4 exec intellij-idea-community
 bindsym $mod+F6 exec teams
 bindsym $mod+F3 exec pcmanfm
-bindsym $mod+F7 exec terminal -e "'sudo openvpn' ~/mysign.ovpn"
 # bindsym $mod+F3 exec ranger
 bindsym $mod+Shift+F3 exec pcmanfm_pkexec
 bindsym $mod+F5 exec terminal -e 'mocp'
@@ -147,7 +146,7 @@ set $ws1 "1            "
 set $ws2 "2            "
 set $ws3 "3            "
 set $ws4 "4            "
-set $ws5 "5            "
+set $ws5 "5            "
 set $ws6 6
 set $ws7 7
 set $ws8 8
@@ -187,6 +186,7 @@ assign [class="Microsoft Teams - Preview"] $ws1
 assign [class="firefox"] $ws2
 assign [class="jetbrains-idea-ce"] $ws3
 assign [class="Lens"] $ws4
+assign [class="VirtualBox Manager"] $ws5
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
