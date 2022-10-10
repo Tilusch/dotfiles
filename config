@@ -185,8 +185,8 @@ bindsym $mod+Shift+8 move container to workspace $ws8; workspace $ws8
 # Open applications on specific workspaces
 assign [class="Microsoft Teams - Preview"] $ws1
 assign [class="firefox"] $ws2
-assign [class="idea"] $ws3
-assign [class="lens"] $ws5
+assign [class="jetbrains-idea-ce"] $ws3
+assign [class="Lens"] $ws4
 
 # Open specific applications in floating mode
 for_window [title="alsamixer"] floating enable border pixel 1
